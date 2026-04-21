@@ -1,11 +1,13 @@
+
+cat > .gitignore << 'EOF'
 .env
 data/raw/
-data/processed/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 *.pth
 *.pkl
-.DS_Store*.pkl
 *.bin
 artifacts/
+.DS_Store
+EOF
