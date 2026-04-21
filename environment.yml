@@ -1,0 +1,24 @@
+name: hotel_sentiment
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - openai
+    - datasets
+    - pandas
+    - numpy
+    - scikit-learn
+    - pysentimiento
+    - fastapi
+    - uvicorn
+    - streamlit
+    - plotly
+    - python-dotenv
+    - jupyter
+    - ipykernel
+    - wordcloud
+    - matplotlib
+    - seaborn
+    - httpx
